@@ -352,7 +352,7 @@ class KhuOChuot(Ga2):
 
     def farm_10_exp_for_awaken(self):
         i = 1
-        while i <= 9 and self.running:
+        while i <= 10 and self.running:
             self.activate_ga2()
             all_area_btn = self.find_image(self.all_area_btn, 8)
             if all_area_btn:
@@ -487,7 +487,7 @@ class AutoGa2(KhuOChuot, PhongThiNghiem, Gat):
     def auto_farm_lv10_to_lv20_awaken(self):
         i = 1
         # for i in range(10):
-        while i <= 10 and self.running:
+        while i <= 9 and self.running:
             self.farm_10_exp_for_awaken()
             self.upgrade_awaken()
             # print(f"Up Awaken Skill Lv{i+10}/20")
