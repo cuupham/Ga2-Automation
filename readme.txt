@@ -1,5 +1,5 @@
 # Intall Packages
-pip install opencv-python numpy pyautogui pyinstaller pillow PyGetWindow
+pip install opencv-python numpy pyinstaller pillow PyGetWindow PyAutoGUI keyboard
 
 # Extract to .EXE 
-pyinstaller --clean --onedir --ico="coding-program_icon.ico" --noconfirm ga2_automation.py
+pyinstaller --clean --onedir --ico="img\coding-program_icon.ico" --noconfirm ga2_automation.py

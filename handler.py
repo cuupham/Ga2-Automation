@@ -5,8 +5,6 @@ import cv2
 import numpy as np
 from PIL import ImageGrab
 import pyautogui
-
-# from time import sleep
 from typing import Callable, Optional
 import os
 
